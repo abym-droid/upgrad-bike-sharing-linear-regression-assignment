@@ -28,10 +28,10 @@ I'm required to model the demand for shared bikes with the available independent
 - The model is not very complex and the final one contains 9 features shortlisted after Recursive Feature Elimination (RFE) automated process and manual feature selection from 28 features (post dummy variables and scaling)
 
 **Significant Variables:**
- - **Spring Season:** The variable "spring" has a coefficient/weightage of -0.8188. The bike demand will significantly fall in spring and the company needs to invest in some marketing strategies to attract more people during spring
- - **Temperature:** This variable "temp" has a coefficient/weightage of 0.3510. In general as temperature gets warmer, demand rises This could be also observed as "winter" season or "Light Snow" (weathersit original catageorical variable level) drives demands down.
- - **Year:** This variable "year" has a coefficient/weightage pf 0.9418. Year on year demand is increasing Covid-19 may have temporariliy stiffled demand but as the pandemic is gone now (or is less serious) the demand is expected to rise again. People are also becoming more climate conscious and prefer bikes for shorter transits and for jealth benefits
- - **Weather Conditions:** Weathersit variables like "Light Snow" or "Mist" drives demands down. "Summer" and "Fall" seasons drives demands up
+ - **Spring Season:** The variable "spring" has a coefficient/weightage of -0.8188. The bike demand will significantly fall in spring and the company needs to invest in some marketing strategies to attract more people during spring.
+ - **Temperature:** This variable "temp" has a coefficient/weightage of 0.3510. In general as temperature gets warmer, demand rises. This could be also observed as "Winter" season or "Light Snow" (weathersit original catageorical variable level) drives demands down.
+ - **Year:** This variable "year" has a coefficient/weightage pf 0.9418. Year on year demand is increasing. Covid-19 may have temporariliy stiffled demand but as the pandemic is gone now (or is less serious) the demand is expected to rise again. People are also becoming more climate conscious and prefer bikes for shorter transits and for health benefits.
+ - **Weather Conditions:** Weathersit variables like "Light Snow" or "Mist" drives demands down. "Summer" and "Fall" seasons drives demands up.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
