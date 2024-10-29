@@ -25,13 +25,17 @@ I'm required to model the demand for shared bikes with the available independent
 **Model evaluation:**
 - The train and test R2 scores are quite close which means there is no overfitting/underfitting in the model and it is quite stable
 - The error terms were normally distributed so the p-values computed for the predictor variable coefficients are reliable.
-- The model is not very complex and the final one contains 9 features shortlisted after Recursive Feature Elimination (RFE) automated process and manual feature selection from 28 features (post dummy variables and scaling)
+- The model is not very complex and the final one contains 6 features shortlisted after Recursive Feature Elimination (RFE) automated process and manual feature selection from 28 features (post dummy variables and scaling)
 
 **Significant Variables:**
- - **Spring Season:** The variable "spring" has a coefficient/weightage of -0.8188. The bike demand will significantly fall in spring and the company needs to invest in some marketing strategies to attract more people during spring.
- - **Temperature:** This variable "temp" has a coefficient/weightage of 0.3510. In general as temperature gets warmer, demand rises. This could be also observed as "Winter" season or "Light Snow" (weathersit original catageorical variable level) drives demands down.
- - **Year:** This variable "year" has a coefficient/weightage pf 0.9418. Year on year demand is increasing. Covid-19 may have temporariliy stiffled demand but as the pandemic is gone now (or is less serious) the demand is expected to rise again. People are also becoming more climate conscious and prefer bikes for shorter transits and for health benefits.
- - **Weather Conditions:** Weathersit variables like "Light Snow" or "Mist" drives demands down. "Summer" and "Fall" seasons drives demands up.
+ Recommendation on Significant variables are as follows:
+ 1. **Spring Season:** The variable "spring" has a coefficient/weightage of -0.8644. The bike demand will significantly fall in spring and the company needs to invest in some marketing strategies to attract more people during spring. "Summer" and "Fall" seasons drives demands up.
+ 
+ 2. **Year:** This variable "year" has a coefficient/weightage of 0.9081. Year on year demand is increasing. Covid-19 may have temporarily stifled demand but as the pandemic is gone now (or is less serious) the demand is expected to rise again. People are also becoming more climate conscious and prefer bikes for shorter transits and for health benefits.
+ 
+ 3.  **Weather Conditions:** Weathersit variables like "Light Snow" (coefficient/weightage of -1.4208) or "Mist" (coefficient/weightage of -0.4554) drives demands down. 
+ 
+ 4. **Temperature:** This variable "temp" has a coefficient/weightage of 0.3367. In general as temperature gets warmer, demand rises. This could be also observed as "Winter" season or "Light Snow" (weathersit original catageorical variable level) drives demands down.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
